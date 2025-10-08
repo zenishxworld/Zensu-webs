@@ -29,7 +29,7 @@ const About = () => {
               transition={{ duration: 0.5 }} 
               className="text-4xl font-bold mb-6"
             >
-              About WRLDS Technologies
+              About PixelTrix Technologies
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -91,7 +91,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We founded [Your Company Name] with the ambition to simplify the fragmented landscape of digital project development, making expert solutions accessible to clients. Leveraging our diverse professional backgrounds, we focused on defining a streamlined process for project success.
+                    We founded PixelTrix Technologies with the ambition to simplify the fragmented landscape of digital project development, making expert solutions accessible to clients. Leveraging our diverse professional backgrounds, we focused on defining a streamlined process for project success.
                   </p>
                   <p className="text-gray-600 mb-4">
                     Our core focus became transforming complex strategic and software building blocks into simple, reusable modules. During this critical period, we engaged with a range of clients, developing both prototypes and full-scale products to validate our end-to-end approach.
@@ -108,13 +108,13 @@ const About = () => {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="mb-16"
               >
-                <h2 className="text-3xl font-bold mb-6">Our Team</h2>
+                {/* <h2 className="text-3xl font-bold mb-6">Our Team</h2>
                 <p className="text-gray-600 mb-8">
                   Our diverse team combines expertise in Project Strategy, software development, AI/machine learning, 
                   and industry-specific knowledge to deliver comprehensive IoT solutions.
-                </p>
+                </p> */}
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
                       name: "Felix von Heland",
@@ -158,7 +158,7 @@ const About = () => {
                       </CardContent>
                     </Card>
                   ))}
-                </div>
+                </div> */}
               </motion.div>
             </div>
             

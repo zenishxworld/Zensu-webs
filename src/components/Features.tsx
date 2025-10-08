@@ -316,7 +316,7 @@ A successful product requires expertise in strategy, robust software, and scalab
                   <Box className="h-10 w-10 text-gray-700" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Proprietary Components</h3>
-                <p className="text-sm text-gray-600">Pre-validated hardware and software components from our 7+ years of development</p>
+                <p className="text-sm text-gray-600">Pre-validated software modules and reusable code libraries from our projects.</p>
               </div>
             </div>
             

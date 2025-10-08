@@ -12,7 +12,7 @@ const SportRetailProject = () => {
       brandName="Global Sports Retail Leader"
     >
       <SEO 
-        title="WRLDS - Performance Athletic Footwear Project" 
+        title="PixelTrix - Performance Athletic Footwear Project" 
         description="Revolutionary R&D for next-generation athletic footwear with embedded textile sensors for real-time performance analytics and personalized footwear."
         type="article"
       />
@@ -101,7 +101,7 @@ const SportRetailProject = () => {
         <div>
           <h4 className="text-lg font-semibold mb-2 text-gray-700">Development Roadmap</h4>
           <p>
-            WRLDS Technologies continues to partner with this client on this R&D initiative to refine the prototype and 
+            PixelTrix Technologies continues to partner with this client on this R&D initiative to refine the prototype and 
             develop potential consumer versions of this technology, which could enable everyday athletes to benefit 
             from professional-grade footwear analysis and recommendations.
           </p>

@@ -37,7 +37,7 @@ const Careers = () => {
                   transition={{ duration: 0.5, delay: 0.2 }} 
                   className="text-xl text-gray-600 mb-4"
                 >
-                  We're looking for passionate innovators to help us revolutionize the smart textile industry.
+                  We seek ambitious innovators to help us redefine the digital solutions landscape.
                 </motion.p>
                 
                 <motion.p
@@ -46,7 +46,7 @@ const Careers = () => {
                   transition={{ duration: 0.5, delay: 0.3 }}
                   className="text-xl text-gray-600 mb-12"
                 >
-                  We welcome both full-time professionals and interns who are eager to contribute to groundbreaking technology.
+                  We welcome both experienced professionals and motivated interns eager to build high-value solutions for our clients.
                 </motion.p>
                 
                 <motion.div 
@@ -55,7 +55,7 @@ const Careers = () => {
                   transition={{ duration: 0.6 }}
                   className="mb-16"
                 >
-                  <h2 className="text-3xl font-bold mb-6">Why Join WRLDS?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Why Join PixelTrix?</h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                     {[
                       {
@@ -83,11 +83,11 @@ const Careers = () => {
                     <div className="bg-white rounded-xl p-6 border border-gray-200">
                       <div className="flex flex-col items-center text-center">
                         <img 
-                          src="/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
+                          src="public\lovable-uploads\Screenshot 2025-10-08 090911.png"
                           alt="Love Anderberg"
                           className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
                         />
-                        <h3 className="text-xl font-bold text-gray-900">Love Anderberg</h3>
+                        <h3 className="text-xl font-bold text-gray-900">Hensu Patel</h3>
                         <p className="text-gray-600 mb-4">COO</p>
                         <div className="flex flex-col space-y-3">
                           <a href="mailto:love@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
