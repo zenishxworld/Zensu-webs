@@ -39,7 +39,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                We're an end-to-end smart product development partner with 7+ years of experience turning connected product visions into market reality.
+                We are an end-to-end digital solutions partner built on proven expertise, quickly turning complex project visions into successful market reality.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -51,12 +51,10 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-                    At WRLDS Technologies, we transform connected product ideas into market-ready solutions by 
-                    combining hardware engineering, software & AI development, and production expertise under one roof.
+                    At PixelTrix, we transform complex project ideas into market-ready solutions by combining strategic planning, robust software & AI development, and deployment expertise under one roof. 
                   </p>
                   <p className="text-gray-600">
-                    We believe that the future belongs to intelligent, connected products that enhance human capabilities 
-                    and improve quality of life across industries.
+                    We believe the future belongs to intelligent, well-engineered solutions that enhance capabilities and improve quality of life across key industries.
                   </p>
                 </motion.div>
                 
@@ -70,15 +68,15 @@ const About = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Hardware Engineering:</strong> Circuit design, mechanical engineering, and connectivity solutions.</span>
+                      <span><strong>Project Strategy:</strong> Circuit design, mechanical engineering, and connectivity solutions.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Software & AI:</strong> Embedded firmware, cloud platforms, mobile apps, and machine learning.</span>
+                      <span><strong>Software & AI:</strong> Custom software, AI, and cloud development.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Production & Scale:</strong> Manufacturing partnerships, certification, and market deployment.</span>
+                      <span><strong>Production & Scale:</strong> Scaling support, certification, and market deployment.</span>
                     </li>
                   </ul>
                 </motion.div>
@@ -93,19 +91,13 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We started with the ambition to make an inherently scattered and complex IoT development landscape 
-                    modular, accessible, and available to brands across industries. After successfully raising funding 
-                    for development, we spent years building our comprehensive technology platform.
+                    We founded [Your Company Name] with the ambition to simplify the fragmented landscape of digital project development, making expert solutions accessible to clients. Leveraging our diverse professional backgrounds, we focused on defining a streamlined process for project success.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    The goal was to turn all the scattered hardware and software building blocks into simple modules 
-                    to be assembled like Lego. During this time we worked with a range of customers, building prototypes 
-                    and full products to ensure our platform had real-world applicability.
+                    Our core focus became transforming complex strategic and software building blocks into simple, reusable modules. During this critical period, we engaged with a range of clients, developing both prototypes and full-scale products to validate our end-to-end approach.
                   </p>
                   <p className="text-gray-600">
-                    By 2023, we had reached a technology maturity level that allowed us to work at enterprise scale. 
-                    Since then, we have successfully launched multiple connected products in market, from sports equipment 
-                    to safety gear, proving our end-to-end development capabilities.
+                    Having established our successful strategic and deployment processes, we are now positioned to deliver at scale. We have successfully completed multiple complex client projects across various industries, proving our dedicated and end-to-end development capabilities.
                   </p>
                 </div>
               </motion.div>
@@ -118,14 +110,14 @@ const About = () => {
               >
                 <h2 className="text-3xl font-bold mb-6">Our Team</h2>
                 <p className="text-gray-600 mb-8">
-                  Our diverse team combines expertise in hardware engineering, software development, AI/machine learning, 
+                  Our diverse team combines expertise in Project Strategy, software development, AI/machine learning, 
                   and industry-specific knowledge to deliver comprehensive IoT solutions.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      name: "We enable strategic software and deployment leaps that define your brand's future.",
+                      name: "Felix von Heland",
                       role: "CEO and Founder",
                       bio: "Leading WRLDS with a vision to democratize IoT product development across industries.",
                       image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"

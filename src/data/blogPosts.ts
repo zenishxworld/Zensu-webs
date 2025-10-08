@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'subheading',
-        content: 'Hardware Engineering Excellence'
+        content: 'Project Strategy Excellence'
       },
       {
         type: 'paragraph',
