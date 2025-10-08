@@ -197,7 +197,7 @@ A successful product requires expertise in strategy, robust software, and scalab
                   { 
                     phase: "03", 
                     title: "Development & Integration", 
-                    description: "Full-stack development combining hardware, software, and cloud platforms into cohesive solutions.",
+                    description: "Full-stack development combining robust software and advanced cloud platforms into integrated, cohesive solutions.",
                     icon: <Zap className="h-8 w-8 text-white" />
                   },
                   { 
@@ -250,7 +250,7 @@ A successful product requires expertise in strategy, robust software, and scalab
                 { 
                   phase: "03", 
                   title: "Development & Integration", 
-                  description: "Full-stack development combining hardware, software, and cloud platforms into cohesive solutions.",
+                  description: "Full-stack development combining robust software and advanced cloud platforms into integrated, cohesive solutions.",
                   icon: <Zap className="h-8 w-8 text-white" />
                 },
                 { 
@@ -315,7 +315,7 @@ A successful product requires expertise in strategy, robust software, and scalab
                 <div className="bg-gray-50 rounded-full p-4 mb-4">
                   <Box className="h-10 w-10 text-gray-700" />
                 </div>
-                <h3 className="text-lg font-bold mb-2">Proprietary Modules</h3>
+                <h3 className="text-lg font-bold mb-2">Proprietary Components</h3>
                 <p className="text-sm text-gray-600">Pre-validated hardware and software components from our 7+ years of development</p>
               </div>
             </div>
@@ -335,8 +335,8 @@ A successful product requires expertise in strategy, robust software, and scalab
                 <div className="bg-gray-50 rounded-full p-4 mb-4">
                   <Handshake className="h-10 w-10 text-gray-700" />
                 </div>
-                <h3 className="text-lg font-bold mb-2">Production Partner Network</h3>
-                <p className="text-sm text-gray-600">Expert manufacturing partners for quality production at scale</p>
+                <h3 className="text-lg font-bold mb-2">Deployment & Scaling Support</h3>
+                <p className="text-sm text-gray-600">Expert scaling support and deployment resources to ensure successful, high-quality market readiness.</p>
               </div>
             </div>
           </div>

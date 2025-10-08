@@ -27,7 +27,7 @@ const ContactInfo = () => {
                 alt="Zenish Patel"
                 className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
               />
-              <h3 className="text-xl font-bold text-gray-900">Felix von Heland</h3>
+              <h3 className="text-xl font-bold text-gray-900">Zenish Patel</h3>
               <p className="text-gray-600 mb-4">CEO and Founder</p>
               <div className="flex flex-col space-y-3">
                 <a href="mailto:felix@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
@@ -35,7 +35,7 @@ const ContactInfo = () => {
                   felix@wrlds.com
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/felixvonheland/" 
+                  href="https://www.linkedin.com/in/zenishxworld/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-700 hover:text-blue-600"
@@ -51,11 +51,11 @@ const ContactInfo = () => {
           <div className="bg-white rounded-xl shadow-xl p-6 md:p-8 border border-gray-700">
             <div className="flex flex-col items-center text-center">
               <img 
-                src="/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
+                src="\lovable-uploads\Screenshot 2025-10-08 090911.png"
                 alt="Hensu Patel"
                 className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
               />
-              <h3 className="text-xl font-bold text-gray-900">Love Anderberg</h3>
+              <h3 className="text-xl font-bold text-gray-900">Hensu Patel</h3>
               <p className="text-gray-600 mb-4">COO</p>
               <div className="flex flex-col space-y-3">
                 <a href="mailto:love@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">

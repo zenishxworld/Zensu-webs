@@ -76,12 +76,12 @@ const Footer = () => {
               className="h-10 w-auto mb-6 invert" // Added invert to make logo white
             />
             <p className="text-gray-300 mb-6">
-              WRLDS Technologies is your end-to-end smart product development partner. We combine hardware engineering, software & AI, and production expertise to turn connected product visions into market reality.
+              Pixeltrix is your end-to-end digital solution partner. We combine strategic planning, robust software & AI development, and deployment expertise to turn complex product visions into market reality.
             </p>
-            <p className="text-gray-300 mb-6">
+            {/* <p className="text-gray-300 mb-6">
               Hornsgatan 110<br />
               117 26, Stockholm Sweden
-            </p>
+            </p> */}
             <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/company/wrldstechnologies/" 
@@ -134,7 +134,7 @@ const Footer = () => {
         
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} WRLDS Technologies. All rights reserved.
+            © {new Date().getFullYear()} PixelTrix Technologies. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Link to="/privacy-policy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>

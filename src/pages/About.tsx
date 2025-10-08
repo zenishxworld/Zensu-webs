@@ -125,7 +125,7 @@ const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      name: "Felix von Heland",
+                      name: "We enable strategic software and deployment leaps that define your brand's future.",
                       role: "CEO and Founder",
                       bio: "Leading WRLDS with a vision to democratize IoT product development across industries.",
                       image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"

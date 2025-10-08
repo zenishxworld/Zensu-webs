@@ -86,7 +86,7 @@ const WhyWrlds = () => {
         margin: "-100px"
       }} variants={containerVariants}>
           <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Why WRLDS?
+            Why Us\\\?
           </motion.h2>
           <motion.p variants={itemVariants} className="text-gray-600 text-lg max-w-3xl mx-auto">
             In an industry where complexity leads to failure, we bring simplicity and expertise to ensure your success
@@ -102,7 +102,7 @@ const WhyWrlds = () => {
               <BarChart className="w-8 h-8 text-gray-700" />
             </div>
             <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={7} suffix="+" /> Years
+              <AnimatedCounter end={2} suffix="+" /> Years
             </h3>
             <p className="text-gray-700">Building connected products across industries with multiple successful launches generating revenue</p>
           </motion.div>
@@ -115,7 +115,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={60} suffix="%" /> 
             </h3>
             <p className="text-gray-700">
-              of IoT projects stall at the proof-of-concept stage due to fragmented expertise and poor coordination
+              of projects face delays at the initial stage due to fragmented teams and poor coordination between key disciplines.
             </p>
           </motion.div>
           
@@ -127,7 +127,7 @@ const WhyWrlds = () => {
               <AnimatedCounter end={80} suffix="%" />
             </h3>
             <p className="text-gray-700">
-              Increase in time-to-market for IoT products over the past four years, creating costly delays
+              Increase in time-to-market for complex technical solutions, leading to competitive disadvantage and costly delays.
             </p>
           </motion.div>
         </motion.div>
@@ -138,7 +138,7 @@ const WhyWrlds = () => {
         }} variants={containerVariants}>
           <motion.div variants={itemVariants} className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              What WRLDS Does for You
+              What We\\\ Does for You
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We transform your ideas into market-ready solutions with tangible benefits for your business
@@ -188,8 +188,8 @@ const WhyWrlds = () => {
                   <Rocket className="w-6 h-6 text-gray-700" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Brand-Building Leaps</h4>
-                  <p className="text-gray-700">We enable hardware/software leaps that define your brand's future.</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Brand-Defining Leaps</h4>
+                  <p className="text-gray-700">We enable strategic software and deployment leaps that define your brand's future.</p>
                 </div>
               </div>
             </motion.div>
