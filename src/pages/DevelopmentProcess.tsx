@@ -127,7 +127,7 @@ const DevelopmentProcess = () => {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-12">
                 We've refined our development methodology to minimize risk and maximize innovation, 
-                ensuring your **digital solution project** moves efficiently from concept to reality.
+                ensuring your digital solution moves efficiently from concept to reality.
               </p>
               
               {/* From Textile to Intelligence Process Section */}
