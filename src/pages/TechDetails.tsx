@@ -90,7 +90,7 @@ const TechDetails = () => {
                 </Card>
               </motion.div>
               
-              {/* Our Approach Section */}
+              {/* At [Your Company Name], we've developed a systematic approach to creating high-value digital solutions that combines strategic innovation with practical implementation. Our comprehensive development process ensures that every project moves efficiently from concept to market-ready product. Section */}
               <motion.div initial={{
               opacity: 0,
               y: 20
@@ -107,23 +107,22 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  At PixelTrix, we've developed a systematic approach to creating smart textile solutions that combines technical innovation with practical implementation. 
-                  Our comprehensive development process ensures that every project moves efficiently from concept to market-ready product.
+                  At PixelTrix, we've developed a systematic approach to creating high-value digital solutions that combines strategic innovation with practical implementation. Our comprehensive development process ensures that every project moves efficiently from concept to market-ready product.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                   {[{
-                  title: "Discovery",
+                  title: "Discovery & Strategy",
                   icon: <Cpu className="w-5 h-5 text-gray-700" />,
-                  description: "We begin with thorough market research and requirements gathering to understand your specific needs and opportunities."
+                  description: "We begin with comprehensive strategic analysis and thorough requirements gathering to understand your specific needs and project opportunities."
                 }, {
-                  title: "Design & Prototyping",
+                  title: "Design & Architecture",
                   icon: <Code className="w-5 h-5 text-gray-700" />,
-                  description: "Our teams create initial designs and functional prototypes that allow for early testing and iteration."
+                  description: "Our teams create initial solution architectures and functional prototypes that allow for early testing and iteration."
                 }, {
-                  title: "Development & Testing",
+                  title: "Development & Deployment",
                   icon: <FileText className="w-5 h-5 text-gray-700" />,
-                  description: "We rigorously develop and test all components to ensure they meet performance and reliability standards."
+                  description: "We rigorously develop and deploy all software components to ensure they meet performance and high reliability standards."
                 }].map((phase, i) => <motion.div key={phase.title} initial={{
                   opacity: 0,
                   y: 10
