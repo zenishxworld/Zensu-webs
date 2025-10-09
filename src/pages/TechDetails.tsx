@@ -54,7 +54,7 @@ const TechDetails = () => {
               duration: 0.5,
               delay: 0.2
             }} className="text-base sm:text-lg text-gray-600 mb-12">
-                Explore the technical details behind our smart textile sensor technology and learn how our system architecture enables rapid development and deployment.
+                Explore the technical details behind our robust solution architecture and learn how our modular system enables rapid development and deployment.
               </motion.p>
               
               {/* System Architecture Section */}
@@ -73,8 +73,7 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  Our platform uses a three-tier architecture connecting physical devices to our cloud services and user applications. 
-                  The diagram below illustrates how data flows through our system, from sensor collection to user-facing applications.
+                  Our platform uses a three-tier architecture connecting data sources to our cloud services and user applications. The diagram below illustrates how data flows through our system, from ingestion to final user-facing applications.
                 </p>
 
                 {/* Progress bar showing flow */}
