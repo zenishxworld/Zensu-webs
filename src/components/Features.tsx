@@ -33,7 +33,7 @@ const Features = () => {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
       title: "Logistics & Supply Chain",
       description: "Real-time fleet tracking, inventory optimization, end-to-end supply chain visibility, and automated warehouse management solutions.",
-      image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png",
+      image: "/lovable-uploads/Screenshot 2025-10-09 215213.png",
       category: "Industrial"
     },
     {
@@ -121,9 +121,9 @@ A successful product requires expertise in strategy, robust software, and scalab
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
               Industry Applications
             </div>
-            <h3 className="text-2xl font-bold mb-4">Cross-Industry IoT Solutions</h3>
+            <h3 className="text-2xl font-bold mb-4">Target Industry Solutions</h3>
             <p className="text-gray-600">
-              Our modular approach enables rapid development across diverse industries, from sports tech to smart cities.
+              Our strategic approach enables rapid digital solution development across diverse industries, from sports tech to smart cities.
             </p>
           </div>
           

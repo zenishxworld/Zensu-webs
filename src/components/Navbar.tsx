@@ -121,13 +121,13 @@ const Navbar = () => {
                       <li>
                         <Link to="/tech-details" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Technology Platform</div>
-                          <p className="text-sm text-gray-500">Our IoT development platform and capabilities</p>
+                          <p className="text-sm text-gray-500">Our core strategy, software, deployment expertise</p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/development-process" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
                           <div className="font-medium">Development Process</div>
-                          <p className="text-sm text-gray-500">5-phase approach from idea to market</p>
+                          <p className="text-sm text-gray-500">Structured methodology from concept to launch</p>
                         </Link>
                       </li>
                       <li>

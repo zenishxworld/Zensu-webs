@@ -1,4 +1,4 @@
-import { ArrowLeft, CheckCircle, Clock, FileSearch, Settings, Cpu, Code, Truck, BarChart, Check } from 'lucide-react';
+import { ArrowLeft, CheckCircle, Clock, FileSearch, Settings, Cpu, Code, Truck, BarChart, Check, Zap, HardHat, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { cn } from '@/lib/utils';
@@ -16,29 +16,29 @@ const DevelopmentProcess = () => {
   // Process component logic
   const processes = [{
     id: 1,
-    title: "Textile Sensor Design",
-    description: "We begin by designing custom textile sensors specifically for your industry and use case, selecting appropriate conductive materials and sensor types.",
-    steps: ["Industry-specific requirement analysis", "Sensor type and material selection", "Prototype sensor development", "Initial testing and calibration"]
+    title: "Project Strategy", // REPLACED: "Textile Sensor Design"
+    description: "We begin by defining the core strategy and technical feasibility specifically for your project, setting clear technical parameters and goals.", // REPLACED description
+    steps: ["Industry-specific requirement analysis", "Technical feasibility assessment", "Solution architecture blueprint", "Initial scope and timeline definition"] // REPLACED steps
   }, {
     id: 2,
-    title: "Garment Integration",
-    description: "Our engineering team seamlessly integrates sensors into clothing and footwear while maintaining comfort, durability, and washability.",
-    steps: ["Ergonomic placement optimization", "Non-intrusive integration techniques", "Durability and washability testing", "Comfort and user experience validation"]
+    title: "Solution Architecture", // REPLACED: "Garment Integration"
+    description: "Our engineering team designs the solution architecture and prototypes key components while maintaining scalability, security, and performance.", // REPLACED description
+    steps: ["Microservices architecture design", "Frontend/backend interface prototyping", "Security and data flow modeling", "User experience and functional validation"] // REPLACED steps
   }, {
     id: 3,
-    title: "AI & Data Analytics",
-    description: "We develop specialized algorithms that transform textile sensor data into actionable insights unique to your industry requirements.",
-    steps: ["Industry-specific algorithm development", "ML model training with domain data", "Real-time analytics implementation", "Insight delivery optimization"]
+    title: "Software & Analytics", // REPLACED: "AI & Data Analytics"
+    description: "We develop specialized algorithms that transform project data into actionable insights unique to your specific business requirements.", // REPLACED description
+    steps: ["API development and integration", "ML model training with domain data", "Real-time processing implementation", "Robust cloud infrastructure build-out"] // REPLACED steps
   }, {
     id: 4,
-    title: "Production & Certification",
-    description: "We handle manufacturing, quality control, and ensure all textile sensor products meet relevant industry standards and certifications.",
-    steps: ["Textile manufacturing partner selection", "Quality assurance processes", "Industry-specific certification procurement", "Initial production supervision"]
+    title: "Quality Assurance & Scale", // REPLACED: "Production & Certification"
+    description: "We manage comprehensive quality assurance, rigorous security audits, and ensure all components meet relevant performance standards and certifications.", // REPLACED description
+    steps: ["Comprehensive QA and UAT planning", "Security and compliance audits", "Performance and stress testing", "Final certification procurement"] // REPLACED steps
   }, {
     id: 5,
-    title: "Deployment & Support",
-    description: "We provide comprehensive training, implementation assistance, and ongoing support to ensure successful adoption and continuous improvement.",
-    steps: ["User training and onboarding", "Data interpretation guidance", "Performance monitoring", "Continuous improvement iterations"]
+    title: "Deployment & Support", // KEPT: "Deployment & Support"
+    description: "We provide comprehensive launch strategy, implementation assistance, and ongoing support to ensure successful adoption and continuous improvement.", // REPLACED description
+    steps: ["Final launch planning and execution", "User training and onboarding", "Performance monitoring and reporting", "Continuous improvement iterations"] // REPLACED steps
   }];
   useEffect(() => {
     processSectionsRef.current = processes.map((_, i) => processSectionsRef.current[i] || null);
@@ -93,21 +93,21 @@ const DevelopmentProcess = () => {
     title: "2. Concept & Design",
     description: "Our experts craft initial designs and technical specifications, ensuring alignment with your brand identity and user experience goals."
   }, {
-    icon: <Cpu className="h-6 w-6" />,
-    title: "3. Hardware Development",
-    description: "We select, design, and integrate sensor components, creating optimized hardware solutions that balance performance and efficiency."
+    icon: <Code className="h-6 w-6" />, // REPLACED ICON (Code is better than Cpu for Software Architecture)
+    title: "3. Solution Architecture", // REPLACED: "3. Hardware Development"
+    description: "We design the complete solution architecture and technical specifications, balancing scalability, performance, and efficiency." // REPLACED description
   }, {
-    icon: <Code className="h-6 w-6" />,
+    icon: <Cpu className="h-6 w-6" />, // REPLACED ICON (Cpu is fine for processing/software logic)
     title: "4. Software Development",
-    description: "Our development team builds robust firmware, apps, and cloud platforms tailored to your product's unique requirements and user needs."
+    description: "Our development team builds robust software, apps, and cloud platforms tailored to your product's unique requirements and user needs." // Minor refinement
   }, {
     icon: <CheckCircle className="h-6 w-6" />,
     title: "5. Testing & Iteration",
     description: "Rigorous testing protocols ensure reliability, durability, and optimal performance across all conditions and use cases."
   }, {
-    icon: <Truck className="h-6 w-6" />,
-    title: "6. Production & Deployment",
-    description: "We support the transition from prototype to manufacturing, ensuring quality standards and seamless deployment."
+    icon: <TrendingUp className="h-6 w-6" />, // REPLACED ICON (TrendingUp is better for Launch/Growth than Truck)
+    title: "6. Launch & Deployment", // REPLACED: "6. Production & Deployment"
+    description: "We support the transition from prototype to full launch, ensuring quality standards and seamless deployment." // REPLACED description
   }, {
     icon: <BarChart className="h-6 w-6" />,
     title: "7. Continuous Improvement",
@@ -127,7 +127,7 @@ const DevelopmentProcess = () => {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-12">
                 We've refined our development methodology to minimize risk and maximize innovation, 
-                ensuring your textile sensor project moves efficiently from concept to reality.
+                ensuring your **digital solution project** moves efficiently from concept to reality.
               </p>
               
               {/* From Textile to Intelligence Process Section */}
