@@ -1,80 +1,86 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
-import { Shield, Radio, Activity, Box } from 'lucide-react';
+import { Lock, Zap, Code, Shield, Scan, Pocket } from 'lucide-react';
 
-const FireCatProject = () => {
+const AuditXProject = () => {
   return (
     <ProjectPageLayout
-      title="FireCat's 6th SENSE"
-      subtitle="Advanced safety system for high-risk environments"
-      imageUrl="/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png"
-      brandName="FireCat Group"
+      title="AuditX – AI-Based Web3 Security Suite"
+      subtitle="Comprehensive, real-time security and analysis for the Web3 ecosystem"
+      imageUrl="/lovable-uploads/auditx-security-suite.png" // Placeholder image URL
+      brandName="Zenish & Hensu"
       darkMode={true}
     >
-      <h2 className="text-3xl font-bold mb-6">Case Study: FireCat's 6th SENSE by WRLDS Technologies</h2>
+      <h2 className="text-3xl font-bold mb-6">Case Study: AuditX – AI-Based Web3 Security Suite by Zenish</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <h3 className="text-xl font-semibold mb-2">Background</h3>
         <p>
-          FireCat Group aimed to enhance the safety and operational effectiveness of personnel in high-risk 
-          environments such as law enforcement, military operations, and firefighting. They required an advanced, 
-          integrated sensor solution that could provide critical real-time data for risk management and decision-making.
+          As blockchain adoption grows across DeFi, NFTs, and utility-based ecosystems, both developers and investors 
+          face challenges in assessing the security, authenticity, and reliability of web3 assets. Traditional audits 
+          are expensive and slow, and most users lack tools to verify tokens or inspect suspicious wallets.
+          There was a need for a unified, fast, and affordable platform to audit smart contracts, scan tokens, and 
+          inspect wallet activity — especially for early-stage projects and non-technical users.
         </p>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
       <p>
-        Traditional approaches lacked comprehensive real-time tracking and situational awareness, leaving personnel 
-        vulnerable and decision-making delayed. The market required a robust solution capable of capturing essential 
-        data while being resilient enough for extreme conditions.
+        Manual audits and blockchain analysis tools often require expert-level knowledge and take time to produce results. 
+        Scams like rug pulls, pump-and-dump tokens, and wallet impersonation are rising rapidly. The market lacked a 
+        streamlined solution that could:
       </p>
+      <ul className="list-disc pl-6 space-y-2 mb-8 mt-4">
+        <li>Analyze smart contracts for risks and gas usage</li>
+        <li>Verify tokens before buying or promoting them</li>
+        <li>Inspect wallets for suspicious or high-risk behavior</li>
+      </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies provided an end-to-end solution called the 6th SENSE, combining sophisticated AI-driven 
-        sensors seamlessly integrated into uniforms. The solution features:
+        We developed AuditX, an AI-based web3 security tool offering three powerful modules:
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
           <Shield className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Main Unit</h4>
-            <p>Secure real-time data transmission with encrypted communication.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Smart Contract Auditor</h4>
+            <p>Automated tool that parses and evaluates Solidity code for vulnerabilities, logic issues, and gas inefficiency.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Radio className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Scan className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">High-Quality Sensors</h4>
-            <p>Durable sensors resistant to dust, water, and extreme temperatures.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Token Scanner</h4>
+            <p>Verifies any ERC-20 token by analyzing its behavior, trust score, and transaction history.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Box className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Pocket className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Integrated Clothing</h4>
-            <p>Customized shirts embedding AI-powered sensors, maintaining user comfort.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Wallet Inspector</h4>
+            <p>Fetches and analyzes data from any public blockchain wallet address for risk signals and credibility.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Activity className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Code className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Control Unit</h4>
-            <p>Centralized AI interface providing transparent data visualization and management via an intuitive supervisor app.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">AI-Enhanced Accuracy</h4>
+            <p>Models trained on real audit data improve detection rates and false positive filtering.</p>
           </div>
         </div>
       </div>
       
       <h4 className="text-xl font-semibold mb-4">Critical Features</h4>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li>Man Down Alarm for immediate alerts</li>
-        <li>Precise GPS positioning for location tracking</li>
-        <li>Real-time monitoring of vital signs</li>
-        <li>Easily accessible Panic Button for emergencies</li>
+        <li>One-Click Audit & Scan – Paste code or address, get results instantly</li>
+        <li>Real-Time Data – Live wallet and token tracking via blockchain APIs</li>
+        <li>Risk Indicators – Colored labels show Critical, High, Medium, Low severity</li>
+        <li>No Sign-up Required – Publicly usable with clean, fast UI</li>
+        <li>Modular Interface – Users can use just the module they need</li>
       </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits</h3>
@@ -82,52 +88,54 @@ const FireCatProject = () => {
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Life-saving technology</h4>
-            <p>Rapid data acquisition facilitates quicker responses in emergencies.</p>
+            <h4 className="font-semibold">Fast and Reliable</h4>
+            <p>All three tools deliver results in seconds, powered by static analysis and live blockchain data.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Technological advancement</h4>
-            <p>Machine learning prevents false alarms by adapting to individual behavioral baselines.</p>
+            <h4 className="font-semibold">Easy to Understand</h4>
+            <p>Designed for both developers and non-technical users with human-readable outputs.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Long-lasting and secure</h4>
-            <p>Durable hardware with extended lifespan, robust encryption, and full GDPR compliance.</p>
+            <h4 className="font-semibold">Cost-Effective Security</h4>
+            <p>Reduces dependence on costly audits or slow manual analysis.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Easy Maintenance</h4>
-            <p>Sensors are fully washable and require minimal maintenance.</p>
+            <h4 className="font-semibold">AI-Augmented Accuracy</h4>
+            <p>Models trained on real audit data improve detection rates and false positive filtering.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">User-Friendly</h4>
-            <p>Plug & Play installation within minutes, providing hours of continuous operation per charge.</p>
+            <h4 className="font-semibold">Continuously Improving</h4>
+            <p>Easily extensible with more modules like scam detection, presale audits, or DAO tools.</p>
           </div>
         </div>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Outcome</h3>
       <p>
-        FireCat successfully implemented the 6th SENSE solution, significantly enhancing situational awareness, 
-        safety, and operational efficiency of high-risk personnel. WRLDS' innovative platform and specialized 
-        knowledge allowed for rapid deployment, immediate positive impact, and a scalable model for future expansions.
+        AuditX has enabled developers, investors, and small project founders to make faster and safer decisions in the 
+        web3 space. With its one-stop dashboard for contract audits, token validation, and wallet inspection, 
+        AuditX makes blockchain security accessible and efficient. The platform is live and already helping users 
+        avoid scams, optimize smart contracts, and better understand their digital assets — setting a solid foundation 
+        for future upgrades and API integrations.
       </p>
     </ProjectPageLayout>
   );
 };
 
-export default FireCatProject;
+export default AuditXProject;

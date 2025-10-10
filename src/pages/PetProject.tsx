@@ -1,166 +1,152 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
-import { PawPrint, BadgePercent, HeartPulse, Smartphone, Database, FlaskConical } from 'lucide-react';
+import { Truck, Warehouse, FileText, LayoutDashboard, Database, FlaskConical, Users, DollarSign } from 'lucide-react';
 
 const PetProject = () => {
   return (
     <ProjectPageLayout
-      title="Dog Activity Counter"
-      subtitle="Smart monitoring for canine health and insurance"
-      imageUrl="/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png"
-      brandName="UK Insurance Giant"
+      title="Inventory & Billing Dashboard"
+      subtitle="Smart automation for local wholesale and distribution businesses"
+      imageUrl="/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png" // Placeholder image URL
+      brandName="Local Wholesale Business" // Updated Brand Name
     >
       <div className="bg-green-50 p-4 rounded-lg mb-6 flex items-center">
         <FlaskConical className="h-5 w-5 text-green-600 mr-2 flex-shrink-0" />
         <p className="text-green-700 font-medium text-sm">Completed Prototype Project</p>
       </div>
       
-      <h2 className="text-3xl font-bold mb-6">Case Study: Smart Pet Monitoring System</h2>
+      <h2 className="text-3xl font-bold mb-6">Case Study: Intelligent Billing System for Small Wholesalers</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <h3 className="text-xl font-semibold mb-2">Background</h3>
         <p>
-          A leading UK insurance provider identified an opportunity to transform their pet insurance offerings by 
-          incorporating real-time health monitoring. They sought to develop a smart collar system that could track 
-          activity levels and vital signs, providing data for both preventative care and more accurate policy pricing.
+          A local wholesale business approached us with a clear challenge: their entire sales and billing process was 
+          manual, relying heavily on paper records and Excel sheets. This led to delays, frequent errors, and a lack 
+          of real-time tracking for stock or orders.
+          They wanted to modernize their system by implementing a simple yet powerful billing and inventory management 
+          app tailored to their business model — without the complexity or cost of traditional ERP systems.
         </p>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
       <p>
-        Existing pet activity trackers suffered from short battery life, inaccurate data, and poor durability. 
-        Additionally, most lacked the comprehensive health monitoring capabilities needed to generate truly useful 
-        veterinary insights. The client needed a robust solution that pet owners would consistently use while providing 
-        reliable data for insurance assessments.
+        Most small businesses in semi-urban areas lack access to tech solutions designed for their scale. Off-the-shelf 
+        billing software was either too expensive or overloaded with unnecessary features. The client needed:
       </p>
+      <ul className="list-disc pl-6 space-y-2 mb-8 mt-4">
+        <li>A fast and easy system to generate bills</li>
+        <li>Real-time stock tracking with low-stock alerts</li>
+        <li>A way to record customer data and payment history</li>
+        <li>Offline-friendly, with simple deployment on local machines or mobile</li>
+      </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a specialized smart collar system that incorporates:
+        We designed and developed a lightweight, modular web app that streamlines inventory, billing, and customer 
+        management for wholesalers.
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <PawPrint className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Warehouse className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Advanced Activity Tracking</h4>
-            <p>Precise step counting with behavior pattern recognition (walking, running, playing, sleeping).</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Smart Inventory Management</h4>
+            <p>Track incoming and outgoing stock with live quantity updates, product categories, and expiry date support.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <HeartPulse className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <FileText className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Health Monitoring</h4>
-            <p>Non-invasive sensors that detect resting heart rate, respiration patterns, and sleep quality.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Bill Generation Module</h4>
+            <p>Instant invoice creation with GST support, printable PDFs, and automatic inventory adjustment after each sale.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Smartphone className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <LayoutDashboard className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Owner Application</h4>
-            <p>User-friendly app providing health insights, activity recommendations, and preventative care alerts.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Sales & Payment Dashboard</h4>
+            <p>Visual overview of monthly sales, pending payments, and top-selling items.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Database className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Users className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Veterinary Dashboard</h4>
-            <p>Clinical interface for veterinarians to review longitudinal health data and identify early warning signs.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Customer Record System</h4>
+            <p>Save customer names, contact details, and track their order/payment history for loyalty and follow-ups.</p>
           </div>
         </div>
       </div>
       
       <h4 className="text-xl font-semibold mb-4">Technical Specifications</h4>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li>Waterproof design for active dogs</li>
-        <li>Extended battery life with wireless charging capability</li>
-        <li>Lightweight with adjustable sizing for all breeds</li>
-        <li>Cellular and Bluetooth connectivity for continuous data transmission</li>
-        <li>Machine learning algorithms that adapt to individual pet patterns</li>
+        <li>Built using React and Firebase for fast performance and real-time sync</li>
+        <li>Responsive design for desktop, tablet, and mobile</li>
+        <li>Works offline with local caching and syncs when online</li>
+        <li>Printable receipts in both A4 and POS formats</li>
+        <li>Admin-only settings panel for secure product updates and pricing control</li>
       </ul>
       
-      <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits for Insurance Provider</h3>
+      <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits for Business Owner</h3>
       <div className="space-y-6 mb-8">
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Risk Assessment</h4>
-            <p>More accurate risk profiling for policy pricing based on actual activity levels.</p>
+            <h4 className="font-semibold">Faster Billing</h4>
+            <p>Reduced checkout time by 50%, enabling more transactions during peak hours.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Preventative Care</h4>
-            <p>Early detection algorithms reduced costly emergency treatments.</p>
+            <h4 className="font-semibold">Stock Accuracy</h4>
+            <p>Live tracking of over 500 SKUs helped avoid overstock and stockouts.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Customer Engagement</h4>
-            <p>Increased policy renewal rates among pet owners using the system.</p>
+            <h4 className="font-semibold">Data Security</h4>
+            <p>All data backed up securely, avoiding paper loss or Excel file corruption.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Data Insights</h4>
-            <p>Created valuable breed-specific health benchmarks from aggregated anonymous data.</p>
+            <h4 className="font-semibold">Smart Insights</h4>
+            <p>Daily and monthly reports helped the owner plan purchases and promotions more efficiently.</p>
           </div>
         </div>
-      </div>
-      
-      <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits for Pet Owners</h3>
-      <div className="space-y-6 mb-8">
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Premium Discounts</h4>
-            <p>Active pets qualify for reduction in insurance premiums.</p>
-          </div>
-        </div>
-        
-        <div className="flex items-start">
-          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
-          <div>
-            <h4 className="font-semibold">Health Insights</h4>
-            <p>Personalized health recommendations based on breed, age, and activity levels.</p>
-          </div>
-        </div>
-        
-        <div className="flex items-start">
-          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
-          <div>
-            <h4 className="font-semibold">Peace of Mind</h4>
-            <p>Real-time alerts for concerning changes in behavior or vital signs.</p>
+            <h4 className="font-semibold">Zero Learning Curve</h4>
+            <p>Simple UI designed for non-technical staff and shop helpers.</p>
           </div>
         </div>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Outcome</h3>
       <p>
-        The prototype program was successfully implemented with a select group of pet owners across the UK, 
-        demonstrating the concept's viability and potential benefits. The insurance provider reported significant 
-        preliminary improvements in customer satisfaction and engagement metrics, while veterinary partners provided 
-        positive feedback on the system's ability to detect potential health issues earlier than conventional methods.
+        The MVP version of the system is now actively used by the client and is in its pilot testing phase. Business 
+        operations have become smoother, and the owner reports fewer billing errors and faster counter processing.
+        We're currently working on feature expansions based on early feedback — including barcode scanning, 
+        multi-user login, and supplier-wise analytics.
       </p>
       
       <div className="bg-blue-50 p-6 rounded-lg mt-8 flex items-start">
-        <BadgePercent className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0 mt-1" />
+        <DollarSign className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0 mt-1" />
         <div>
           <h4 className="text-lg font-semibold mb-2 text-gray-700">Industry Potential</h4>
           <p>
-            This prototype demonstrated how a data-driven approach to pet insurance could represent a paradigm shift 
-            in the industry, where preventative care and real-time monitoring have the potential to transform the 
-            traditional reactive insurance model into a proactive health partnership between insurers, pet owners, 
-            and veterinarians.
+            This system shows how tailored tech solutions can bring enterprise-level automation to small businesses, 
+            making daily operations more efficient and transparent. With minor customizations, this system can scale 
+            across multiple wholesale sectors like medical stores, general retailers, and FMCG distributors — offering 
+            a low-cost ERP alternative built for Bharat.
           </p>
         </div>
       </div>

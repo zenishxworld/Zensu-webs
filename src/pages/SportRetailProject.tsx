@@ -1,99 +1,106 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
 import SEO from '@/components/SEO';
-import { Footprints, Zap, LineChart, Award, Sparkles, FlaskConical } from 'lucide-react';
+import { Footprints, Zap, LineChart, Award, Sparkles, FlaskConical, Hammer, GalleryHorizontal, Mail, Settings } from 'lucide-react';
 
 const SportRetailProject = () => {
   return (
     <ProjectPageLayout
-      title="Performance Athletic Footwear"
-      subtitle="Revolutionary R&D for next-generation athletic footwear"
-      imageUrl="/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png"
-      brandName="Global Sports Retail Leader"
+      title="Smart Construction Web Portal"
+      subtitle="Digital transformation for a local construction company"
+      imageUrl="/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png" // Placeholder image URL
+      brandName="Local Construction Company" // Updated Brand Name
     >
       <SEO 
-        title="PixelTrix - Performance Athletic Footwear Project" 
-        description="Revolutionary R&D for next-generation athletic footwear with embedded textile sensors for real-time performance analytics and personalized footwear."
+        title="Smart Construction Web Portal - Website Modernization" 
+        description="Full website modernization for a local construction firm, featuring a responsive design, dynamic project gallery, and CMS-ready backend."
         type="article"
       />
       
       <div className="bg-yellow-50 p-4 rounded-lg mb-6 flex items-center">
         <FlaskConical className="h-5 w-5 text-yellow-600 mr-2 flex-shrink-0" />
-        <p className="text-yellow-700 font-medium text-sm">Ongoing R&D Project — Currently in Prototyping Phase</p>
+        <p className="text-yellow-700 font-medium text-sm">Ongoing Client Project — Currently in Final Integration Phase</p>
       </div>
       
-      <h2 className="text-3xl font-bold mb-6">Case Study: Smart Footwear Development</h2>
+      <h2 className="text-3xl font-bold mb-6">Case Study: Website Modernization for Real Estate & Construction Firm</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <h3 className="text-xl font-semibold mb-2">Background</h3>
         <p>
-          A global sports retail leader approached WRLDS Technologies with a vision to revolutionize the development, 
-          fitting, and testing of athletic footwear. Their goal was to create a data-driven approach to footwear design 
-          that would enhance athlete performance while reducing development cycles.
+          A local construction company approached our freelance team with a request to modernize their outdated website 
+          originally built using legacy PHP. The goal was to create a responsive and easy-to-maintain website that 
+          better represented their expanding portfolio of residential and commercial construction projects.
+          They also wanted to enable clients to view recent site updates, download brochures, and inquire about 
+          services — all from a clean and fast website interface.
         </p>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
       <p>
-        Traditional footwear development relied heavily on subjective feedback and limited quantitative testing. 
-        The company needed a precise way to measure actual performance metrics, foot movements, and pressure 
-        distribution in real-world athletic scenarios. Additionally, they wanted to personalize footwear recommendations 
-        based on individual biomechanics.
+        The previous website was built over 10 years ago using old PHP frameworks with no mobile optimization and 
+        limited content management options. It lacked visual appeal, SEO optimization, and was difficult for the client 
+        to update. The company needed a new platform that could:
       </p>
+      <ul className="list-disc pl-6 space-y-2 mb-8 mt-4">
+        <li>Reflect their modern construction capabilities</li>
+        <li>Be fast-loading and mobile-friendly</li>
+        <li>Easily update project photos and service information without coding</li>
+      </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a comprehensive smart footwear R&D platform that includes:
+        We proposed a full redesign using modern frontend tools and a lightweight backend structure, enabling the client 
+        to independently manage content and showcase their work.
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Footprints className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Hammer className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" /> {/* Using Hammer for construction/redesign */}
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Embedded Sensors</h4>
-            <p>Textile-based pressure and motion sensors integrated directly into prototype footwear.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Frontend Redesign</h4>
+            <p>A fully responsive UI built using HTML5, CSS3, and JavaScript, with a mobile-first approach and optimized image handling.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Zap className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <GalleryHorizontal className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" /> {/* Using GalleryHorizontal for gallery */}
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Real-time Analysis</h4>
-            <p>Instant feedback on gait, pressure points, and energy transfer during athletic movements.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Modular Project Gallery</h4>
+            <p>Dynamic project listing with filtering options for residential, commercial, and upcoming projects. Users can explore each project via dedicated detail pages.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <LineChart className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Mail className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" /> {/* Using Mail for contact system */}
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Performance Metrics</h4>
-            <p>Comprehensive data collection on acceleration, stability, and energy return across different sports movements.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Inquiry & Contact System</h4>
+            <p>Integrated form submissions with backend notifications, making it easier for potential clients to request quotes or contact the company.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Award className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Settings className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" /> {/* Using Settings for CMS-Ready Backend */}
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Athlete Cloud Platform</h4>
-            <p>AI-powered analytics comparing performance across prototype iterations and athlete profiles.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">⚙️ CMS-Ready Backend</h4>
+            <p>Built-in support for integrating a CMS or admin dashboard to allow the client to upload new projects or images in the future.</p>
           </div>
         </div>
       </div>
       
       <h4 className="text-xl font-semibold mb-4">Key Features</h4>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li>Machine washable sensor technology for extended testing periods</li>
-        <li>Low-profile design that doesn't interfere with natural movement</li>
-        <li>Cross-platform mobile app for real-time coaching and feedback</li>
-        <li>Materials testing module to evaluate durability and performance longevity</li>
+        <li>SEO-optimized structure for better local search ranking</li>
+        <li>Fully mobile responsive across all modern devices</li>
+        <li>Clean layout to match the brand’s professional image</li>
+        <li>Lazy-loaded project images for faster load speed</li>
+        <li>Optimized file structure for easy future scaling</li>
       </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Preliminary Results</h3>
       <p>
-        The smart footwear prototype platform has shown promising results in initial testing phases. 
-        The data-driven approach has not only provided valuable insights for product development but also opened 
-        new possibilities for personalized product recommendations in retail environments. Patent applications have 
-        been filed based on innovations developed during this ongoing project.
+        Initial testing and client reviews have been positive. The new layout reflects the company’s credibility and 
+        scale while offering a better user experience across devices. The shift from a static PHP site to a responsive, 
+        modular design enables easier maintenance and better client engagement. A noticeable increase in inquiry form 
+        submissions has been reported during pre-launch testing.
       </p>
       
       <div className="bg-blue-50 p-6 rounded-lg mt-8 flex items-start">
@@ -101,9 +108,10 @@ const SportRetailProject = () => {
         <div>
           <h4 className="text-lg font-semibold mb-2 text-gray-700">Development Roadmap</h4>
           <p>
-            PixelTrix Technologies continues to partner with this client on this R&D initiative to refine the prototype and 
-            develop potential consumer versions of this technology, which could enable everyday athletes to benefit 
-            from professional-grade footwear analysis and recommendations.
+            The project is in its final stage with full deployment and admin training scheduled soon. Future updates 
+            will include CMS integration, a testimonials section, and multi-language support to reach a wider audience. 
+            This transformation marks a strong digital leap forward for a traditional construction company, setting the 
+            stage for more online visibility and client interaction.
           </p>
         </div>
       </div>
