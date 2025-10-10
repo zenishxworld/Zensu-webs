@@ -1,82 +1,85 @@
-
 import ProjectPageLayout from '@/components/ProjectPageLayout';
-import { Activity, Gauge, Flag, Users, BarChart3 } from 'lucide-react';
+import { Bot, LineChart, TrendingUp, DollarSign, Cpu } from 'lucide-react';
 
 const HockeyProject = () => {
   return (
     <ProjectPageLayout
-      title="Ice Hockey Elite Skill Tracker"
-      subtitle="Advanced motion analysis for optimal performance"
-      imageUrl="/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png"
-      brandName="Mars Blades"
+      title="MT5 Trading Automation Bot"
+      subtitle="Custom trading automation for forex and futures markets"
+      imageUrl="/lovable-uploads/mt5-trading-bot-hero.png" // Placeholder image URL
+      brandName="Professional Trader Client"
     >
-      <h2 className="text-3xl font-bold mb-6">Case Study: Hockey Performance Analysis System</h2>
+      <h2 className="text-3xl font-bold mb-6">Case Study: Automated Forex & Futures Trading System</h2>
       
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <h3 className="text-xl font-semibold mb-2">Background</h3>
         <p>
-          Mars Blades, a leading innovator in hockey training equipment, sought to develop a system for 
-          quantifying and analyzing the specific movements that contribute to elite hockey performance. They approached 
-          WRLDS Technologies to create a solution that could capture detailed metrics during real skating sessions and 
-          translate that data into actionable insights for player development.
+          A professional trader approached our team to develop a custom MT5 automation bot for forex and futures markets. 
+          The trader wanted a solution that could analyze market conditions, detect trends, and autonomously place trades 
+          according to their requirements, without constant manual monitoring.
+          The goal was to build a robust and efficient bot capable of handling live markets while adhering to the client’s trading preferences.
         </p>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
       <p>
-          Previous attempts to measure hockey performance relied on multiple external sensors or camera systems 
-          that were cumbersome, expensive, and limited to controlled environments. Mars Blades needed a solution that 
-          was simple enough for daily use but sophisticated enough to capture the nuanced movements that differentiate 
-          elite players, particularly focusing on acceleration, speed transitions, and maneuverability on ice.
+        Manual trading in volatile markets is prone to delayed responses and inconsistencies. Existing automation tools lacked 
+        multi-timeframe analysis, adaptive trend detection, and real-time trade management.
+        The client needed a solution that could:
       </p>
+      <ul className="list-disc pl-6 space-y-2 mb-8 mt-4">
+        <li>Detect market fractal nature and auto directional bias</li>
+        <li>Analyze trend and session candle behavior</li>
+        <li>Execute trades automatically based on favorable market conditions</li>
+        <li>Skip signals if setup criteria were not satisfied</li>
+        <li>Maintain modularity for future upgrades</li>
+      </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a specialized single-point IMU (Inertial Measurement Unit) system embedded directly 
-        in hockey footwear that could:
+        We developed a modular MT5 bot that combines advanced market analysis with automated trade execution:
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Activity className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <LineChart className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Motion Pattern Recognition</h4>
-            <p>Identify and categorize specific skating movements from crossovers to tight turns.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Market Analysis & Signal Detection</h4>
+            <p>Detects fractal patterns and auto bias. Monitors trend behavior across multiple sessions and timeframes.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Gauge className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Bot className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Performance Metrics</h4>
-            <p>Measure acceleration forces, edge angles, weight distribution, and power output in real-time.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Automated Trade Execution</h4>
+            <p>Places trades automatically. Manages trade size, stop-loss, and take-profit dynamically based on detected signals.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Flag className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <Cpu className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Benchmark Comparisons</h4>
-            <p>Compare athlete's movements to established elite player patterns and historical personal bests.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Modular Architecture</h4>
+            <p>Built for flexibility and future expansion. Easily integrates new analysis modules or signal detectors.</p>
           </div>
         </div>
         
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
-          <Users className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
+          <DollarSign className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" />
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">Coach Integration</h4>
-            <p>Provide coaches with detailed skill development metrics across team members.</p>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">Risk Management Ready</h4>
+            <p>Integrates configurable risk management rules (client-defined) for disciplined trading.</p>
           </div>
         </div>
       </div>
       
       <h4 className="text-xl font-semibold mb-4">System Components</h4>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li>Embedded sensors designed to withstand the harsh conditions of ice hockey</li>
-        <li>Bluetooth connectivity with real-time data streaming to rinkside devices</li>
-        <li>Athlete-facing mobile app with immediate performance feedback</li>
-        <li>Coach dashboard for tracking player development and team trends</li>
-        <li>Machine learning algorithm that improves pattern recognition over time</li>
+        <li>MT5 Expert Advisor (EA) for automated trade management</li>
+        <li>Real-time market analysis engine for forex and futures</li>
+        <li>Logging dashboard for trade review and performance tracking</li>
+        <li>Modular coding to support future strategy additions</li>
       </ul>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Benefits</h3>
@@ -84,51 +87,58 @@ const HockeyProject = () => {
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Skill Development</h4>
-            <p>Players using the system showed faster improvement in targeted skating skills.</p>
+            <h4 className="font-semibold">Automated Market Response</h4>
+            <p>Executes trades in real-time based on trend, session, and candle behavior.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Injury Prevention</h4>
-            <p>Early detection of asymmetrical movements helped reduce strain-related injuries.</p>
+            <h4 className="font-semibold">Consistency & Discipline</h4>
+            <p>Maintains consistent trade execution without emotional bias.</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Elite Performance Insights</h4>
-            <p>Identified specific movement patterns that correlate with elite acceleration and agility.</p>
+            <h4 className="font-semibold">Risk Management Ready</h4>
+            <p>Integrates configurable risk management rules (client-defined).</p>
           </div>
         </div>
         
         <div className="flex items-start">
           <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
           <div>
-            <h4 className="font-semibold">Coaching Efficiency</h4>
-            <p>Reduced subjective assessment with quantifiable metrics for player development.</p>
+            <h4 className="font-semibold">Scalable & Upgradable</h4>
+            <p>Modular design allows adding new market modules or signal detectors.</p>
+          </div>
+        </div>
+        <div className="flex items-start">
+          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-gray-100 flex items-center justify-center text-black mr-3 mt-1">✓</div>
+          <div>
+            <h4 className="font-semibold">Performance Insights</h4>
+            <p>Comprehensive trade logs support evaluation and future optimization.</p>
           </div>
         </div>
       </div>
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Outcome</h3>
       <p>
-        The Ice Hockey Elite Skill Tracker has been successfully adopted by professional teams and elite hockey 
-        academies across North America and Europe. Mars Blades has integrated the technology into their premium training 
-        products, creating a new standard for performance analysis in ice hockey. The data collected has also led to 
-        improvements in skate design and training methodologies based on the scientific insights provided.
+        The MT5 Bot is actively deployed for the client, providing automated trade execution in forex and futures markets. 
+        By leveraging fractal patterns, auto bias detection, and session candle behavior, it ensures high-quality trade 
+        opportunities are captured while maintaining operational efficiency.
+        This version protects the client’s strategy while highlighting the power and sophistication of the bot.
       </p>
       
       <div className="bg-blue-50 p-6 rounded-lg mt-8 flex items-start">
-        <BarChart3 className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0 mt-1" />
+        <TrendingUp className="h-6 w-6 text-blue-500 mr-3 flex-shrink-0 mt-1" />
         <div>
           <h4 className="text-lg font-semibold mb-2 text-gray-700">Research Impact</h4>
           <p>
-            The data gathered from this project has contributed to academic research on elite athletic performance 
-            and has been cited in sports science publications focused on optimizing movement efficiency in winter sports.
+            The bot's performance logs provide crucial data for iterative improvement, demonstrating a clear path for 
+            strategy evolution and long-term algorithmic trading success.
           </p>
         </div>
       </div>

@@ -96,14 +96,14 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link to="/projects/workwear" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Industrial Workwear</div>
-                          <p className="text-sm text-gray-500">Smart PPE for extreme environments</p>
+                          <div className="font-medium">Creative Multimedia Portfolio</div>
+                          <p className="text-sm text-gray-500">Showcasing music, film, and coaching expertise</p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/projects/hockey" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">AirHive Tracking</div>
-                          <p className="text-sm text-gray-500">Smart equipment for Berg Trampolines</p>
+                          <div className="font-medium">MT5 Trading Automation</div>
+                          <p className="text-sm text-gray-500">Custom bot for forex and futures markets</p>
                         </Link>
                       </li>
                       <li>
