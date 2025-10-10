@@ -88,11 +88,11 @@ const Careers = () => {
                           className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
                         />
                         <h3 className="text-xl font-bold text-gray-900">Hensu Patel</h3>
-                        <p className="text-gray-600 mb-4">COO</p>
+                        <p className="text-gray-600 mb-4">COO  & Co-founder</p>
                         <div className="flex flex-col space-y-3">
-                          <a href="mailto:love@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                          <a href="mailto:coo@pixeltrix.com" className="flex items-center text-gray-700 hover:text-blue-600">
                             <Mail className="w-5 h-5 mr-2" />
-                            love@wrlds.com
+                            coo@pixeltrix.com
                           </a>
                           <a 
                             href="https://www.linkedin.com/in/love-anderberg-67549a174/" 
@@ -105,7 +105,7 @@ const Careers = () => {
                           </a>
                           <a href="tel:+46760149508" className="flex items-center text-gray-700 hover:text-blue-600">
                             <Phone className="w-5 h-5 mr-2" />
-                            076-014 95 08
+                            +91 90812 93038
                           </a>
                         </div>
                       </div>
