@@ -82,7 +82,7 @@ const Footer = () => {
               Hornsgatan 110<br />
               117 26, Stockholm Sweden
             </p> */}
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/company/" 
                 target="_blank" 
@@ -91,7 +91,7 @@ const Footer = () => {
               >
                 <Linkedin size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
           
           <div>

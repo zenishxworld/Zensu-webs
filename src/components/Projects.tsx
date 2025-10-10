@@ -8,50 +8,50 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "AuditX Security System",
-    brand: "FireCat Group",
-    description: "AI-driven sensor solution integrated into uniforms for law enforcement, military and firefighters, providing real-time vital monitoring and situational awareness in high-risk environments.",
-    tags: ["Safety", "Military", "AI Sensors", "Real-time Monitoring"],
+    title: "Web3 Tool",
+    brand: "AuditX Security System",
+    description: "AI-based security tool offering Smart Contract Auditing, Token Scanning, and Wallet Inspection for comprehensive Web3 security and real-time analysis.",
+    tags: ["Web3 Security", "Smart Contracts", "Token Analysis", "Wallet Monitoring"],
     imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
     isFeatured: true,
     link: "/projects/firecat",
-    details: `
-      FireCat Group aimed to enhance safety in high-risk environments. WRLDS Technologies provided the 6th SENSE solution with secure real-time data transmission, high-quality sensors resistant to extreme conditions, integrated AI-powered clothing, and a centralized control unit. Features include Man Down Alarm, GPS positioning, vital sign monitoring, and Panic Button. Benefits: life-saving technology, machine learning preventing false alarms, durable hardware with 7-10 year lifespan, washable sensors, and Plug & Play installation with 12-20 hours of operation per charge.
-    `
+    // details: `
+    //   FireCat Group aimed to enhance safety in high-risk environments. WRLDS Technologies provided the 6th SENSE solution with secure real-time data transmission, high-quality sensors resistant to extreme conditions, integrated AI-powered clothing, and a centralized control unit. Features include Man Down Alarm, GPS positioning, vital sign monitoring, and Panic Button. Benefits: life-saving technology, machine learning preventing false alarms, durable hardware with 7-10 year lifespan, washable sensors, and Plug & Play installation with 12-20 hours of operation per charge.
+    // `
   },
   {
     id: 2,
-    title: "Performance Athletic Footwear",
-    brand: "Global Sports Retail Leader",
-    description: "Smart Footwear R&D aiming to revolutionize development, fitting, and testing of athletic footwear.",
-    tags: ["Sports", "R&D", "Footwear", "Athletic Performance"],
+    title: "ELITE-Construction Company",
+    brand: "Smart Construction Web Portal",
+    description: "Website modernization for a local construction firm, featuring a responsive design, dynamic project gallery, and CMS-ready backend.",
+    tags: ["Construction", "Website Modernization", "Real Estate", "Project Gallery"],
     imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
     link: "/projects/sport-retail"
   },
   {
     id: 3,
-    title: "Workwear Climate Control",
-    brand: "European Multinational Textile Producer",
-    description: "Fully integrated temperature controls for professionals working in extreme heat and cold. Modular approach to enable full-body systems.",
-    tags: ["Climate Control", "Workwear", "Temperature Regulation", "Extreme Conditions"],
+    title: "Creative Multimedia & Coaching Portfolio",
+    brand: "SATYAJEET SHINDE",
+    description: "Showcasing music production, photography, filmography, and expert IELTS coaching. Designed to be interactive and visually appealing for clients and students.",
+    tags: ["Music Production", "Photography", "Filmography", "IELTS Coaching"],
     imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
     link: "/projects/workwear"
   },
   {
     id: 4,
-    title: "Ice Hockey Elite Skill Tracker",
-    brand: "Mars Blades",
-    description: "R&D product evaluating data from single IMU embedded in the hockey shoe. Aim: establish motion patterns that lead to ultimate acceleration, speed, and maneuverability.",
-    tags: ["Ice Hockey", "Motion Analysis", "Performance Tracking", "Sports"],
+    title: "MT5 Trading Automation Bot",
+    brand: "PROFESSIONAL TRADER CLIENT",
+    description: "Custom Expert Advisor (EA) developed for MT5. Aims to autonomously execute trades in forex and futures markets based on multi-timeframe analysis and automated bias detection.",
+    tags: ["Alogoritham Trading", "Automation", "MT5 Expert Advisor", "Forex & Futures"],
     imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
-    link: "/projects/hockey"
+    link: "/projects/trading-bot"
   },
   {
     id: 5,
-    title: "Dog Activity Counter",
-    brand: "UK Insurance Giant",
-    description: "R&D project embedding a step counter in a dog collar. Measures daily activity and sends real-time data to the cloud for veterinary consultancies.",
-    tags: ["Pet Technology", "Insurance", "Activity Tracking", "R&D"],
+    title: "Inventory & Billing Dashboard",
+    brand: "Bhavya Enterprices",
+    description: "Smart automation for a local wholesale business, replacing manual paper/Excel-based processes with a digital system for real-time stock, billing, and customer management.",
+    tags: ["Retail Automation", "Business ERP", "Inventory Management", "Billing System"],
     imageUrl: "/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png",
     link: "/projects/pet-tracker"
   }
