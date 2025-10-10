@@ -122,7 +122,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'icon-list',
         items: [
-          'FireCat\'s 6th SENSE safety system protecting law enforcement and military personnel',
+          'FireCat\'s AuditX Security system protecting law enforcement and military personnel',
           'Mars Blades\' hockey performance tracking revolutionizing athlete development',
           'Smart workwear climate control systems for extreme environment workers',
           'Athletic footwear R&D platforms accelerating product innovation cycles'

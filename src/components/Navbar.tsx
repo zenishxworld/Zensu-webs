@@ -83,14 +83,15 @@ const Navbar = () => {
                     <ul className="grid gap-3 p-4 w-[400px]">
                       <li>
                         <Link to="/projects/firecat" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">6th SENSE Safety</div>
-                          <p className="text-sm text-gray-500">IoT sensors for firefighter protection</p>
+                          <div className="font-medium">AuditX Security</div>
+                          <p className="text-sm text-gray-500">AI-Based Web3 Security Suite</p>
                         </Link>
                       </li>
                       <li>
                         <Link to="/projects/sport-retail" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Better Hockey</div>
-                          <p className="text-sm text-gray-500">Connected sports equipment development</p>
+                          <div className="font-medium">Smart Construction</div>
+                          <p className="text-sm text-gray-500">Modern Web Portal & Digital Transformation
+</p>
                         </Link>
                       </li>
                       <li>
@@ -107,8 +108,8 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link to="/projects/pet-tracker" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Pet Activity Monitoring</div>
-                          <p className="text-sm text-gray-500">IoT solutions for pet health tracking</p>
+                          <div className="font-medium">Inventory & Billing System</div>
+                          <p className="text-sm text-gray-500">Smart Automation for Wholesalers</p>
                         </Link>
                       </li>
                     </ul>

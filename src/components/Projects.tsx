@@ -8,7 +8,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "6th SENSE Safety System",
+    title: "AuditX Security System",
     brand: "FireCat Group",
     description: "AI-driven sensor solution integrated into uniforms for law enforcement, military and firefighters, providing real-time vital monitoring and situational awareness in high-risk environments.",
     tags: ["Safety", "Military", "AI Sensors", "Real-time Monitoring"],

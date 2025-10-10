@@ -80,7 +80,7 @@ const SportRetailProject = () => {
         <div className="bg-white shadow-md rounded-lg p-6 border border-gray-100 flex items-start">
           <Settings className="h-6 w-6 text-black mr-3 flex-shrink-0 mt-1" /> {/* Using Settings for CMS-Ready Backend */}
           <div>
-            <h4 className="text-lg font-semibold mb-2 text-gray-700">⚙️ CMS-Ready Backend</h4>
+            <h4 className="text-lg font-semibold mb-2 text-gray-700">CMS-Ready Backend</h4>
             <p>Built-in support for integrating a CMS or admin dashboard to allow the client to upload new projects or images in the future.</p>
           </div>
         </div>
